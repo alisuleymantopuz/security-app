@@ -1,0 +1,38 @@
+﻿@using System.Web.Optimization
+@model AuthorizationFramework.UI.Web.Models.Account.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+
+<div class="panel-body">
+
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+         
+
+        <div class="container-fluid">
+            <div class="row">
+                @Html.TextBoxFor(x => x.Username, new { placeholder = Html.DisplayNameFor(x => x.Username) })
+                @Html.PasswordFor(x => x.Password, new { placeholder = Html.DisplayNameFor(x => x.Password), autocomplete = false })
+                <input type="submit" value="@ViewBag.Login" class="btn-default" />
+            </div>
+
+            @if (ViewData.ModelState[""] != null && ViewData.ModelState[""].Errors.Count > 0)
+            {
+                <div class="row ">
+                    <div class="alert alert-error">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        @Html.ValidationSummary()
+                    </div>
+                </div>
+            }
+
+        </div>
+    }
+
+</div>
+
+

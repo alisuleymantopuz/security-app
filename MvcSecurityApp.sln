@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Domain", "AuthorizationFramework.Domain\AuthorizationFramework.Domain.csproj", "{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{81AF39D9-3CB5-48E9-A423-505866473EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Domain.Maps", "AuthorizationFramework.Domain.Maps\AuthorizationFramework.Domain.Maps.csproj", "{33E984FA-5639-4444-B787-3FBBE7A41FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Domain.Repositories", "AuthorizationFramework.Domain.Repositories\AuthorizationFramework.Domain.Repositories.csproj", "{6E735F42-2097-42B8-905B-F768B5CDF713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Domain.Services", "AuthorizationFramework.Domain.Services\AuthorizationFramework.Domain.Services.csproj", "{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Domain.Maps.Tests", "AuthorizationFramework.Domain.Maps.Tests\AuthorizationFramework.Domain.Maps.Tests.csproj", "{417FC731-D293-4D86-962C-560CA61C62CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Infrastructure", "AuthorizationFramework.Infrastructure\AuthorizationFramework.Infrastructure.csproj", "{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{7FA94800-D57C-49DA-B739-2E111FB1D932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E601E563-DE06-478F-9951-DC6F1B8685A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5B756BC0-5F8E-4E51-8F9E-71C7220DF1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.Migrator.Database", "AuthorizationFramework.Migrator.Database\AuthorizationFramework.Migrator.Database.csproj", "{469C3504-EF36-40B5-9561-665606E0CED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.UI.Web", "AuthorizationFramework.UI.Web\AuthorizationFramework.UI.Web.csproj", "{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationFramework.UI.Web.Tests", "AuthorizationFramework.UI.Web.Tests\AuthorizationFramework.UI.Web.Tests.csproj", "{62F302B3-B3A1-4E64-9A84-98315AD87DAA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AuthorizationFramework.Domain.Maps.Tests\\AuthorizationFramework.Domain.Maps.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = MvcSecurityApp.sln
+		SccProjectName1 = AuthorizationFramework.Domain.Maps.Tests
+		SccLocalPath1 = AuthorizationFramework.Domain.Maps.Tests
+		SccProjectUniqueName2 = AuthorizationFramework.Domain.Maps\\AuthorizationFramework.Domain.Maps.csproj
+		SccProjectTopLevelParentUniqueName2 = MvcSecurityApp.sln
+		SccProjectName2 = AuthorizationFramework.Domain.Maps
+		SccLocalPath2 = AuthorizationFramework.Domain.Maps
+		SccProjectUniqueName3 = AuthorizationFramework.Domain.Repositories\\AuthorizationFramework.Domain.Repositories.csproj
+		SccProjectTopLevelParentUniqueName3 = MvcSecurityApp.sln
+		SccProjectName3 = AuthorizationFramework.Domain.Repositories
+		SccLocalPath3 = AuthorizationFramework.Domain.Repositories
+		SccProjectUniqueName4 = AuthorizationFramework.Domain.Services\\AuthorizationFramework.Domain.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = MvcSecurityApp.sln
+		SccProjectName4 = AuthorizationFramework.Domain.Services
+		SccLocalPath4 = AuthorizationFramework.Domain.Services
+		SccProjectUniqueName5 = AuthorizationFramework.Domain\\AuthorizationFramework.Domain.csproj
+		SccProjectTopLevelParentUniqueName5 = MvcSecurityApp.sln
+		SccProjectName5 = AuthorizationFramework.Domain
+		SccLocalPath5 = AuthorizationFramework.Domain
+		SccProjectUniqueName6 = AuthorizationFramework.Infrastructure\\AuthorizationFramework.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName6 = MvcSecurityApp.sln
+		SccProjectName6 = AuthorizationFramework.Infrastructure
+		SccLocalPath6 = AuthorizationFramework.Infrastructure
+		SccProjectUniqueName7 = AuthorizationFramework.Migrator.Database\\AuthorizationFramework.Migrator.Database.csproj
+		SccProjectTopLevelParentUniqueName7 = MvcSecurityApp.sln
+		SccProjectName7 = AuthorizationFramework.Migrator.Database
+		SccLocalPath7 = AuthorizationFramework.Migrator.Database
+		SccProjectUniqueName8 = AuthorizationFramework.UI.Web\\AuthorizationFramework.UI.Web.csproj
+		SccProjectTopLevelParentUniqueName8 = MvcSecurityApp.sln
+		SccProjectName8 = AuthorizationFramework.UI.Web
+		SccLocalPath8 = AuthorizationFramework.UI.Web
+		SccProjectUniqueName9 = AuthorizationFramework.UI.Web.Tests\\AuthorizationFramework.UI.Web.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = MvcSecurityApp.sln
+		SccProjectName9 = AuthorizationFramework.UI.Web.Tests
+		SccLocalPath9 = AuthorizationFramework.UI.Web.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E984FA-5639-4444-B787-3FBBE7A41FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E984FA-5639-4444-B787-3FBBE7A41FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E984FA-5639-4444-B787-3FBBE7A41FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E984FA-5639-4444-B787-3FBBE7A41FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E735F42-2097-42B8-905B-F768B5CDF713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E735F42-2097-42B8-905B-F768B5CDF713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E735F42-2097-42B8-905B-F768B5CDF713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E735F42-2097-42B8-905B-F768B5CDF713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417FC731-D293-4D86-962C-560CA61C62CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417FC731-D293-4D86-962C-560CA61C62CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417FC731-D293-4D86-962C-560CA61C62CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417FC731-D293-4D86-962C-560CA61C62CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469C3504-EF36-40B5-9561-665606E0CED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469C3504-EF36-40B5-9561-665606E0CED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469C3504-EF36-40B5-9561-665606E0CED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469C3504-EF36-40B5-9561-665606E0CED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F302B3-B3A1-4E64-9A84-98315AD87DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F302B3-B3A1-4E64-9A84-98315AD87DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F302B3-B3A1-4E64-9A84-98315AD87DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F302B3-B3A1-4E64-9A84-98315AD87DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7E4F668-DA6B-496F-AC26-8E1C55EB8E5E} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{33E984FA-5639-4444-B787-3FBBE7A41FD9} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{6E735F42-2097-42B8-905B-F768B5CDF713} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{E5E6B0BE-B9BB-4FA1-A3CC-256BF785760E} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{417FC731-D293-4D86-962C-560CA61C62CC} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{7FA94800-D57C-49DA-B739-2E111FB1D932} = {81AF39D9-3CB5-48E9-A423-505866473EA8}
+		{CD6E8F55-8F01-4C65-A61A-D5191FDE4E61} = {7FA94800-D57C-49DA-B739-2E111FB1D932}
+		{469C3504-EF36-40B5-9561-665606E0CED0} = {E601E563-DE06-478F-9951-DC6F1B8685A0}
+		{FF2A44C5-A713-4EBB-B30D-03FFC3A546E4} = {5B756BC0-5F8E-4E51-8F9E-71C7220DF1DB}
+		{62F302B3-B3A1-4E64-9A84-98315AD87DAA} = {5B756BC0-5F8E-4E51-8F9E-71C7220DF1DB}
+	EndGlobalSection
+EndGlobal
